@@ -1,0 +1,6 @@
+name: MITlib Self Quiz
+description: Creates a "test your knowledge" style quiz
+package: MIT
+
+type: module
+core: 8.x
