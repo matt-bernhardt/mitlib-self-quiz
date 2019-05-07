@@ -1,0 +1,6 @@
+mitlib_self_quiz.settings:
+  title: 'Self quizzes'
+  description: 'Manage self-paced quizzes'
+  parent: system.admin_structure
+  route_name: mitlib_self_quiz.settings
+  weight: 100

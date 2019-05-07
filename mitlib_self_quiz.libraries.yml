@@ -1,0 +1,5 @@
+mitlib_self_quiz.self_quiz:
+  js:
+    js/self_quiz.js: {}
+  dependencies:
+    - core/jquery

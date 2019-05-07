@@ -1,0 +1,5 @@
+<?php
+
+function mitlib_self_quiz_element_info_alter(array &$types) {
+	print_r( $types );
+}

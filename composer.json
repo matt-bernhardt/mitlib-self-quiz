@@ -2,12 +2,18 @@
     "name": "mjbernha/mitlib-self-quiz",
     "description": "A Drupal module that implements a lightweight \"test your knowledge\" style quiz",
     "type": "drupal-module",
+    "homepage": "https://github.com/matt-bernhardt/mitlib_self_quiz",
     "license": "GPLv3",
     "authors": [
         {
             "name": "Matt Bernhardt",
-            "email": "mjbernha@mit.edu"
+            "email": "mjbernha@mit.edu",
+            "homepage": "https://github.com/matt-bernhardt",
+            "role": "Maintainer"
         }
     ],
+    "support": {
+        "issues": "https://github.com/matt-bernhardt/mitlib_self_quiz/issues"
+    },
     "require": {}
 }
