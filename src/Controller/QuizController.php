@@ -10,6 +10,22 @@ use Drupal\Core\Controller\ControllerBase;
 class QuizController extends ControllerBase {
 
 	/**
+	 * Display the custom quiz page.
+	 *
+	 * @return array
+	 *   Return markup array.
+	 */
+	public function content() {
+		$foo = [
+			'#type' => 'markup',
+			'#markup' => $this->t('Hello, updated custom quiz page!'),
+		];
+		$foo['#attached']['library'][] = 'mitlib_self_quiz/self_quiz';
+		print_r( $foo );
+		return $foo;
+	}
+
+	/**
 	 * Display the markup.
 	 *
 	 * @return array
