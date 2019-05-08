@@ -2,6 +2,6 @@ mitlib_self_quiz.settings:
   path: '/admin/structure/self-quiz'
   defaults:
     _controller: '\Drupal\mitlib_self_quiz\Controller\QuizController::settings'
-    _title: 'Hello Quiz'
+    _title: 'Self quiz settings'
   requirements:
     _permission: 'access content'

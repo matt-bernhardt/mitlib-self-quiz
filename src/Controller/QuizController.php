@@ -18,7 +18,7 @@ class QuizController extends ControllerBase {
 	public function settings() {
 		return [
 			'#type' => 'markup',
-			'#markup' => $this->t('Hello, Quiz!')
+			'#markup' => $this->t('Hello, Quiz settings page!'),
 		];
 	}
 }
