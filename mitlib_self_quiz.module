@@ -1,0 +1,16 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function mitlib_self_quiz_help($route_name, RouteMatchInterface $route_match) {
+	switch ($route_name) {
+		case 'help.page.mitlib_self_quiz':
+			return t('
+				<h2>Self quiz for Drupal</h2>
+				<p>This module is meant to implement "test your knowledge" style quizzes in Drupal.</p>
+			');
+	}
+}

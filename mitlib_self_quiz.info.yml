@@ -4,3 +4,4 @@ package: MIT
 
 type: module
 core: 8.x
+version: 0.0.2
